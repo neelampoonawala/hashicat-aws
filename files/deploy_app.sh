@@ -20,3 +20,5 @@ cat << EOM > /var/www/html/index.html
 EOM
 
 echo "Script complete."
+
+Welcome to ${PREFIX}'s app. Go sunshine!!
