@@ -21,4 +21,4 @@ EOM
 
 echo "Script complete."
 
-Welcome to ${PREFIX}'s app. Go sunshine!!
+echo "Welcome to ${PREFIX}'s app. Go sunshine!!"
