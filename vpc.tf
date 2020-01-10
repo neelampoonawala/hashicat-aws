@@ -1,7 +1,7 @@
 module "vpc" {
   source  = "app.terraform.io/IntuitiveNeelam/vpc/aws"
   version = "2.21.0"
-
+  cidr_block = "10.0.0.0/16"
   database_subnet_assign_ipv6_address_on_creation = "false"
   elasticache_subnet_assign_ipv6_address_on_creation = "false"
   enable_classiclink = "false"
